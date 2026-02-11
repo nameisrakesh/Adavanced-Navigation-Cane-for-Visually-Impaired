@@ -2,8 +2,6 @@
 
 Mini Project – Embedded Systems (ECE)
 
----
-
 ## Overview
 
 The Advanced Navigation Cane for Visually Impaired is an embedded assistive device designed to improve mobility and safety for visually impaired individuals. Traditional walking canes provide only tactile feedback, which limits early obstacle awareness.
@@ -13,11 +11,10 @@ This project integrates an AT89S52 (8051) microcontroller with IR sensors, GPS, 
 - Real-time obstacle detection  
 - Emergency alert messaging  
 - Location tracking  
-- Audio alerts  
+- Buzzer alerts  
 
-The system offers a low-cost and portable solution that enhances independent navigation in both indoor and outdoor environments.
+The system offers a low-cost and portable solution that enhances independent navigation.
 
----
 
 ## Objectives
 
@@ -27,7 +24,6 @@ The system offers a low-cost and portable solution that enhances independent nav
 - Display system status on a 16x2 LCD  
 - Provide a compact and affordable embedded solution  
 
----
 
 ## Features
 
@@ -40,7 +36,6 @@ The system offers a low-cost and portable solution that enhances independent nav
 - Regulated 5V power supply  
 - Lightweight and portable design  
 
----
 
 ## System Components
 
@@ -62,7 +57,6 @@ The system offers a low-cost and portable solution that enhances independent nav
 - Keil µVision (Embedded C / Assembly)  
 - Proteus (Simulation – Optional)
 
----
 
 ## Working Principle
 
@@ -70,7 +64,7 @@ The system offers a low-cost and portable solution that enhances independent nav
 The IR sensor continuously scans the path ahead. When an obstacle is detected, the microcontroller activates the buzzer to warn the user.
 
 ### GPS Tracking
-The GPS module provides latitude and longitude data, enabling location identification during emergencies.
+The GPS module provides latitude and longitude data, enabling location identification during emergencies and any obstacle detection.
 
 ### Emergency Communication
 When the emergency button is pressed, the GSM module sends an alert SMS to predefined guardian numbers.
@@ -78,18 +72,12 @@ When the emergency button is pressed, the GSM module sends an alert SMS to prede
 ### Central Control
 The AT89S52 microcontroller processes sensor inputs and controls the LCD, buzzer, GPS, and GSM modules.
 
----
 
 ## Block Diagram
 
 Power Supply → AT89S52 Microcontroller → IR Sensor / GPS / GSM / LCD / Buzzer / Emergency Button
 
----
 
-## Folder Structure
-
-
----
 
 ## Applications
 
@@ -98,7 +86,6 @@ Power Supply → AT89S52 Microcontroller → IR Sensor / GPS / GSM / LCD / Buzze
 - Safety alert systems  
 - GPS + GSM based tracking projects  
 
----
 
 ## Conclusion
 
@@ -106,24 +93,13 @@ This project demonstrates how embedded systems can significantly enhance accessi
 
 The design also serves as a practical learning platform for integrating sensors, microcontrollers, and wireless communication in real-world applications.
 
----
 
-## Authors
 
-Bhanavath Rakesh  
-Banoth Varun  
-Bhukya Rohith Kumar  
-
-Department of Electronics and Communication Engineering  
-Guru Nanak Institutions Technical Campus  
-
----
 
 ## Contact
 
 Email: bhanavathrakesh12345@gmail.com
 
----
 
 ## Future Enhancements
 
